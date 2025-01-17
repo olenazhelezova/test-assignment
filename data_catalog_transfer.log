@@ -1,0 +1,605 @@
+[2025-01-16 23:47:10,243] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-16 23:47:10,244] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-16 23:47:10,244] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-16 23:47:10,244] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'tag_template_1', 'entry_group_2'}
+[2025-01-16 23:47:10,244] WARNING : Validation for some of the resources has failed.
+[2025-01-16 23:47:10,244] INFO : Starting layered transfer
+[2025-01-16 23:47:10,244] INFO : Transferring layer 1 ...
+[2025-01-16 23:47:10,284] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-16 23:47:10,284] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-16 23:47:10,286] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:10,286] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:12,292] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:12,293] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:16,298] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:16,299] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:24,308] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:24,308] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:24,309] INFO : Transferring layer 2 ...
+[2025-01-16 23:47:24,344] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-16 23:47:24,345] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:26,353] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:30,359] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:38,369] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:47:38,370] INFO : Data successfully transfered! 🐒
+[2025-01-16 23:48:13,118] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-16 23:48:13,119] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-16 23:48:13,119] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-16 23:48:13,119] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-16 23:48:13,119] WARNING : Validation for some of the resources has failed.
+[2025-01-16 23:48:13,119] INFO : Starting layered transfer
+[2025-01-16 23:48:13,119] INFO : Transferring layer 1 ...
+[2025-01-16 23:48:13,158] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-16 23:48:13,158] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-16 23:48:13,160] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:13,160] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:15,168] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:15,169] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:19,178] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:19,179] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:27,189] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:27,190] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:27,191] INFO : Transferring layer 2 ...
+[2025-01-16 23:48:27,225] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-16 23:48:27,227] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:29,237] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:33,240] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:41,249] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-16 23:48:41,250] INFO : Data successfully transfered! 🐒
+[2025-01-16 23:50:41,504] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-16 23:50:41,505] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-16 23:50:41,506] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-16 23:50:41,506] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'tag_template_1', 'entry_group_1'}
+[2025-01-16 23:50:41,506] WARNING : Validation for some of the resources has failed.
+[2025-01-16 23:50:41,506] INFO : Starting layered transfer
+[2025-01-16 23:50:41,506] INFO : Transferring layer 1 ...
+[2025-01-16 23:50:41,546] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:50:41,547] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:50:41,547] ERROR : Unable to transfer resources in layer. Aborting.
+[2025-01-16 23:50:41,547] INFO : Data successfully transfered! 🐒
+[2025-01-16 23:50:43,111] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-16 23:50:43,112] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-16 23:50:43,112] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-16 23:50:43,112] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_1', 'entry_group_2'}
+[2025-01-16 23:50:43,112] WARNING : Validation for some of the resources has failed.
+[2025-01-16 23:50:43,112] INFO : Starting layered transfer
+[2025-01-16 23:50:43,112] INFO : Transferring layer 1 ...
+[2025-01-16 23:50:43,150] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:50:43,150] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:50:43,151] ERROR : Unable to transfer resources in layer. Aborting.
+[2025-01-16 23:50:43,151] INFO : Data successfully transfered! 🐒
+[2025-01-16 23:51:11,916] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-16 23:51:11,917] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-16 23:51:11,917] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-16 23:51:11,917] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-16 23:51:11,917] WARNING : Validation for some of the resources has failed.
+[2025-01-16 23:51:11,918] INFO : Starting layered transfer
+[2025-01-16 23:51:11,918] INFO : Transferring layer 1 ...
+[2025-01-16 23:51:11,957] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:51:11,957] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:51:11,957] ERROR : Unable to transfer resources in layer. Aborting.
+[2025-01-16 23:51:11,957] INFO : Data successfully transfered! 🐒
+[2025-01-16 23:51:27,319] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-16 23:51:27,320] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-16 23:51:27,321] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-16 23:51:27,321] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'tag_template_1', 'entry_group_2'}
+[2025-01-16 23:51:27,321] WARNING : Validation for some of the resources has failed.
+[2025-01-16 23:51:27,321] INFO : Starting layered transfer
+[2025-01-16 23:51:27,321] INFO : Transferring layer 1 ...
+[2025-01-16 23:51:27,360] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:51:27,361] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-16 23:51:27,361] ERROR : Unable to transfer resources in layer. Aborting.
+[2025-01-17 00:02:01,759] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:02:01,760] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:02:01,761] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 00:02:01,761] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 00:02:01,761] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:02:01,761] INFO : Starting layered transfer
+[2025-01-17 00:02:01,761] INFO : Transferring layer 1 ...
+[2025-01-17 00:02:01,802] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:02:01,803] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:02:28,735] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:02:28,736] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:02:28,737] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:02:28,737] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 00:02:28,737] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:02:28,737] INFO : Starting layered transfer
+[2025-01-17 00:02:28,737] INFO : Transferring layer 1 ...
+[2025-01-17 00:02:28,778] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:02:28,779] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:02:28,779] ERROR : Unable to transfer resources in layer: Error Duplicate resource id. initiating resource entry_group_2 transfer. Aborting.
+[2025-01-17 00:03:20,907] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:03:20,908] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:03:20,909] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:03:20,909] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_1', 'entry_group_2'}
+[2025-01-17 00:03:20,909] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:03:20,909] INFO : Starting layered transfer
+[2025-01-17 00:03:20,909] INFO : Transferring layer 1 ...
+[2025-01-17 00:03:20,947] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:03:20,947] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:03:20,948] ERROR : Unable to transfer resources in layer: 'Error Duplicate resource id. initiating resource entry_group_2 transfer'. Aborting.
+[2025-01-17 00:03:54,209] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:03:54,210] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:03:54,210] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 00:03:54,210] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'tag_template_1', 'entry_group_1'}
+[2025-01-17 00:03:54,210] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:03:54,210] INFO : Starting layered transfer
+[2025-01-17 00:03:54,210] INFO : Transferring layer 1 ...
+[2025-01-17 00:03:54,249] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:03:54,249] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:03:54,249] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." initiating resource tag_template_1 transfer'. Aborting.
+[2025-01-17 00:04:02,790] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:04:02,791] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:04:02,791] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:04:02,791] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 00:04:02,791] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:04:02,792] INFO : Starting layered transfer
+[2025-01-17 00:04:02,792] INFO : Transferring layer 1 ...
+[2025-01-17 00:04:02,831] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:04:02,831] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:04:02,831] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating resource entry_group_2 transfer'. Aborting.
+[2025-01-17 00:05:14,838] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:05:14,839] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:05:14,839] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:05:14,839] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_1', 'entry_group_2'}
+[2025-01-17 00:05:14,839] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:05:14,839] INFO : Starting layered transfer
+[2025-01-17 00:05:14,839] INFO : Transferring layer 1 ...
+[2025-01-17 00:05:14,877] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:05:14,878] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:05:14,878] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating TagTemplate "tag_template_1" transfer'. Aborting.
+[2025-01-17 00:05:20,112] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:05:20,113] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:05:20,113] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:05:20,113] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'entry_group_1', 'tag_template_1'}
+[2025-01-17 00:05:20,113] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:05:20,113] INFO : Starting layered transfer
+[2025-01-17 00:05:20,113] INFO : Transferring layer 1 ...
+[2025-01-17 00:05:20,151] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:05:20,152] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:05:20,152] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 00:05:24,523] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:05:24,525] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:05:24,525] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:05:24,525] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'tag_template_1', 'entry_group_1'}
+[2025-01-17 00:05:24,525] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:05:24,525] INFO : Starting layered transfer
+[2025-01-17 00:05:24,526] INFO : Transferring layer 1 ...
+[2025-01-17 00:05:24,564] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:05:24,564] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:05:24,565] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating TagTemplate "tag_template_1" transfer'. Aborting.
+[2025-01-17 00:14:38,663] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:14:38,664] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:14:38,665] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:14:38,665] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'tag_template_1', 'entry_group_1'}
+[2025-01-17 00:14:38,665] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:14:38,665] INFO : Starting layered transfer
+[2025-01-17 00:14:38,665] INFO : Transferring layer 1 ...
+[2025-01-17 00:14:38,706] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:14:38,706] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:14:38,706] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating TagTemplate "tag_template_1" transfer'. Aborting.
+[2025-01-17 00:15:12,435] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:15:12,436] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:15:12,436] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 00:15:12,436] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 00:15:12,436] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:15:12,436] INFO : Starting layered transfer
+[2025-01-17 00:15:12,436] INFO : Transferring layer 1 ...
+[2025-01-17 00:15:12,477] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:15:12,477] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:15:12,477] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 00:16:19,463] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:16:19,465] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:16:19,465] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 00:16:19,465] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'entry_group_1', 'tag_template_1'}
+[2025-01-17 00:16:19,465] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:16:19,466] INFO : Starting layered transfer
+[2025-01-17 00:16:19,466] INFO : Transferring layer 1 ...
+[2025-01-17 00:16:32,339] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:16:32,341] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:16:32,341] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:16:32,341] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'tag_template_1', 'entry_group_2'}
+[2025-01-17 00:16:32,341] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:16:32,341] INFO : Starting layered transfer
+[2025-01-17 00:16:32,341] INFO : Transferring layer 1 ...
+[2025-01-17 00:16:44,833] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:16:44,834] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:16:44,834] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 00:16:44,834] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 00:16:44,834] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:16:44,835] INFO : Starting layered transfer
+[2025-01-17 00:16:44,835] INFO : Transferring layer 1 ...
+[2025-01-17 00:17:14,356] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:17:14,358] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:17:14,358] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 00:17:14,358] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 00:17:14,358] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:17:14,358] INFO : Starting layered transfer
+[2025-01-17 00:17:14,358] INFO : Transferring layer 1 ...
+[2025-01-17 00:17:14,398] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:17:14,398] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:17:14,399] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 00:17:25,779] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 00:17:25,780] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 00:17:25,780] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 00:17:25,780] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_1', 'entry_group_2'}
+[2025-01-17 00:17:25,780] WARNING : Validation for some of the resources has failed.
+[2025-01-17 00:17:25,780] INFO : Starting layered transfer
+[2025-01-17 00:17:25,780] INFO : Transferring layer 1 ...
+[2025-01-17 00:17:25,820] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:17:25,821] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 00:17:25,821] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating TagTemplate "tag_template_1" transfer'. Aborting.
+[2025-01-17 10:00:59,952] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:00:59,954] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:00:59,954] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:00:59,954] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_1', 'entry_group_2'}
+[2025-01-17 10:00:59,954] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:00:59,954] INFO : Starting layered transfer
+[2025-01-17 10:00:59,954] INFO : Transferring layer 1 ...
+[2025-01-17 10:00:59,993] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:00:59,993] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:00:59,994] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 10:01:54,469] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:01:54,469] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:03:07,410] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:03:07,411] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:03:59,458] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:03:59,458] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:05:31,373] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:05:31,373] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:06:34,817] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:06:34,817] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:11:10,462] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:11:10,463] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:12:18,052] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:12:18,052] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:12:26,175] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:12:26,175] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:13:27,647] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:13:27,648] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:14:31,676] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:14:31,676] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:15:56,726] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:15:56,726] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:17:17,097] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:17:17,097] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:17:33,578] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:17:33,579] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:17:42,548] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:17:42,548] CRITICAL : Unable to fetch data: Could not retrieve resources.
+[2025-01-17 10:18:10,746] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:18:10,747] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:18:10,747] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 10:18:10,747] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 10:18:10,747] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:18:10,747] INFO : Starting layered transfer
+[2025-01-17 10:18:10,747] INFO : Transferring layer 1 ...
+[2025-01-17 10:18:10,787] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:18:10,788] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:18:10,789] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:10,790] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:12,799] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:12,801] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:16,805] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:16,805] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:24,818] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:24,819] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:24,820] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:18:24,820] INFO : Transferring layer 2 ...
+[2025-01-17 10:18:24,854] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:18:24,856] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:26,861] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:30,871] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:38,879] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:18:38,880] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:19:25,827] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:19:25,829] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:19:25,829] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:19:25,829] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 10:19:25,829] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:19:25,829] INFO : Starting layered transfer
+[2025-01-17 10:19:25,829] INFO : Transferring layer 1 ...
+[2025-01-17 10:19:25,868] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:19:25,870] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:25,871] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:19:25,871] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 10:19:40,935] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:19:40,936] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:19:40,936] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:19:40,936] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'tag_template_1', 'entry_group_2'}
+[2025-01-17 10:19:40,936] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:19:40,936] INFO : Starting layered transfer
+[2025-01-17 10:19:40,936] INFO : Transferring layer 1 ...
+[2025-01-17 10:19:40,974] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:19:40,975] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:19:40,976] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:40,977] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:42,986] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:42,987] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:46,998] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:46,999] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:55,004] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:55,005] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:55,006] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:19:55,006] INFO : Transferring layer 2 ...
+[2025-01-17 10:19:55,031] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:19:55,033] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:19:57,041] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:20:01,045] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:20:09,054] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:20:09,055] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:21:07,494] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:21:07,495] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:21:07,495] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:21:07,496] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'entry_group_1', 'tag_template_1'}
+[2025-01-17 10:21:07,496] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:21:07,496] INFO : Starting layered transfer
+[2025-01-17 10:21:07,496] INFO : Transferring layer 1 ...
+[2025-01-17 10:21:07,535] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:21:07,536] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:21:07,537] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 10:21:07,537] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 10:21:26,344] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:21:26,345] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:21:26,345] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 10:21:26,345] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 10:21:26,345] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:21:26,345] INFO : Starting layered transfer
+[2025-01-17 10:21:26,345] INFO : Transferring layer 1 ...
+[2025-01-17 10:21:26,383] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:21:26,383] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:21:26,383] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 10:22:09,358] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:22:09,360] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:22:09,360] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:22:09,360] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 10:22:09,360] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:22:09,360] INFO : Starting layered transfer
+[2025-01-17 10:22:09,360] INFO : Transferring layer 1 ...
+[2025-01-17 10:22:09,399] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:22:09,399] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:22:09,401] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:09,401] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:11,411] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:11,412] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:15,417] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:15,418] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:23,423] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:23,424] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:23,425] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:22:23,425] INFO : Transferring layer 2 ...
+[2025-01-17 10:22:23,458] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:22:23,460] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:25,463] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:29,472] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:37,487] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:22:37,488] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:22:40,568] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:22:40,569] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:22:40,569] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 10:22:40,569] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'entry_group_1', 'tag_template_1'}
+[2025-01-17 10:22:40,569] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:22:40,570] INFO : Starting layered transfer
+[2025-01-17 10:22:40,570] INFO : Transferring layer 1 ...
+[2025-01-17 10:22:40,608] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:22:40,608] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:22:40,609] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 10:22:44,399] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:22:44,400] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:22:44,400] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 10:22:44,400] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'tag_template_1', 'entry_group_2'}
+[2025-01-17 10:22:44,400] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:22:44,400] INFO : Starting layered transfer
+[2025-01-17 10:22:44,400] INFO : Transferring layer 1 ...
+[2025-01-17 10:22:44,438] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:22:44,438] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:22:44,439] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 10:29:24,491] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:29:24,492] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:29:24,492] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:29:24,492] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'tag_template_1', 'entry_group_2'}
+[2025-01-17 10:29:24,492] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:29:24,493] INFO : Starting layered transfer
+[2025-01-17 10:29:24,493] INFO : Transferring layer 1 ...
+[2025-01-17 10:29:24,532] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:29:24,532] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:29:24,534] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:24,535] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:26,544] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:26,546] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:30,550] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:30,550] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:38,560] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:38,562] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:38,562] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:29:38,562] INFO : Transferring layer 2 ...
+[2025-01-17 10:29:38,595] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 10:29:38,597] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:40,600] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:44,605] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:52,618] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 10:29:52,618] INFO : Data successfully transfered! 🐒
+[2025-01-17 10:52:28,308] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 10:52:28,309] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 10:52:28,309] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 10:52:28,309] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 10:52:28,309] WARNING : Validation for some of the resources has failed.
+[2025-01-17 10:52:28,309] INFO : Starting layered transfer
+[2025-01-17 10:52:28,309] INFO : Transferring layer 1 ...
+[2025-01-17 10:52:28,348] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:52:28,348] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 10:52:28,348] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 12:04:41,913] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:04:41,914] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:04:41,914] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 12:04:41,914] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 12:04:41,914] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:04:41,914] INFO : Starting layered transfer
+[2025-01-17 12:04:41,914] INFO : Transferring layer 1 ...
+[2025-01-17 12:04:41,952] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:04:41,954] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:04:41,956] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 12:04:41,956] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 12:04:56,922] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:04:56,923] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:04:56,924] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 12:04:56,924] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_1', 'entry_group_2'}
+[2025-01-17 12:04:56,924] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:04:56,924] INFO : Starting layered transfer
+[2025-01-17 12:04:56,924] INFO : Transferring layer 1 ...
+[2025-01-17 12:04:56,961] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 12:04:56,962] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 12:04:56,962] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating TagTemplate "tag_template_1" transfer'. Aborting.
+[2025-01-17 12:05:03,957] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:05:03,958] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:05:03,958] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 12:05:03,958] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'tag_template_1', 'entry_group_1'}
+[2025-01-17 12:05:03,958] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:05:03,958] INFO : Starting layered transfer
+[2025-01-17 12:05:03,958] INFO : Transferring layer 1 ...
+[2025-01-17 12:05:03,997] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 12:05:03,997] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 12:05:03,997] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating TagTemplate "tag_template_1" transfer'. Aborting.
+[2025-01-17 12:05:12,665] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:05:12,666] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:05:12,667] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 12:05:12,667] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 12:05:12,667] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:05:12,667] INFO : Starting layered transfer
+[2025-01-17 12:05:12,667] INFO : Transferring layer 1 ...
+[2025-01-17 12:05:12,706] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:05:12,708] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 12:05:12,708] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:05:12,708] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 12:06:28,368] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:06:28,369] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:06:28,369] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 12:06:28,369] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 12:06:28,369] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:06:28,369] INFO : Starting layered transfer
+[2025-01-17 12:06:28,370] INFO : Transferring layer 1 ...
+[2025-01-17 12:06:28,408] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:06:28,410] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 12:06:28,410] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:06:28,410] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 12:07:58,065] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:07:58,066] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:07:58,066] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 12:07:58,066] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'entry_group_1', 'tag_template_1'}
+[2025-01-17 12:07:58,066] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:07:58,067] INFO : Starting layered transfer
+[2025-01-17 12:07:58,067] INFO : Transferring layer 1 ...
+[2025-01-17 12:07:58,106] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:07:58,106] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:07:58,108] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:07:58,108] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:00,118] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:00,120] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:04,131] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:04,132] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:19,941] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:08:19,942] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:08:19,942] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 12:08:19,942] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 12:08:19,942] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:08:19,942] INFO : Starting layered transfer
+[2025-01-17 12:08:19,942] INFO : Transferring layer 1 ...
+[2025-01-17 12:08:19,981] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 12:08:19,981] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 400 BAD REQUEST"
+[2025-01-17 12:08:19,981] ERROR : Unable to transfer resources in layer: 'Error "Duplicate resource id." when initiating EntryGroup "entry_group_2" transfer'. Aborting.
+[2025-01-17 12:08:33,383] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:08:33,384] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:08:33,385] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 12:08:33,385] INFO : Valid resources acceptable for transfer: {'tag_template_1', 'entry_group_2', 'entry_group_1'}
+[2025-01-17 12:08:33,385] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:08:33,385] INFO : Starting layered transfer
+[2025-01-17 12:08:33,385] INFO : Transferring layer 1 ...
+[2025-01-17 12:08:33,423] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:08:33,424] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:08:33,426] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:33,426] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:35,435] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:35,436] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:39,443] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:39,444] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:47,454] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:47,455] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:47,455] INFO : Data successfully transfered! 🐒
+[2025-01-17 12:08:47,456] INFO : Transferring layer 2 ...
+[2025-01-17 12:08:47,488] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:08:47,490] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:49,500] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:08:53,504] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:09:01,517] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:09:01,518] INFO : Data successfully transfered! 🐒
+[2025-01-17 12:10:00,334] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:10:00,335] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:10:00,335] INFO : Missing dependencies: {'entry_group_3', 'tag_template_2'}
+[2025-01-17 12:10:00,335] INFO : Valid resources acceptable for transfer: {'entry_group_2', 'tag_template_1', 'entry_group_1'}
+[2025-01-17 12:10:00,335] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:10:00,335] INFO : Starting layered transfer
+[2025-01-17 12:10:00,335] INFO : Transferring layer 1 ...
+[2025-01-17 12:10:00,375] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:10:00,376] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 12:10:00,376] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 12:12:04,448] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:12:04,449] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:12:04,449] INFO : Missing dependencies: {'tag_template_2', 'entry_group_3'}
+[2025-01-17 12:12:04,449] INFO : Valid resources acceptable for transfer: {'entry_group_1', 'entry_group_2', 'tag_template_1'}
+[2025-01-17 12:12:04,449] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:12:04,450] INFO : Starting layered transfer
+[2025-01-17 12:12:04,450] INFO : Transferring layer 1 ...
+[2025-01-17 12:12:04,489] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:12:04,490] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:12:04,491] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:04,492] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:06,501] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:06,502] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:10,510] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:10,512] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:18,520] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_2 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:18,521] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tag_template_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:18,522] INFO : Layer data successfully transfered! 🐒
+[2025-01-17 12:12:18,522] INFO : Transferring layer 2 ...
+[2025-01-17 12:12:18,557] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:12:18,559] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:20,564] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:24,568] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:32,577] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/entry_group_1 "HTTP/1.1 200 OK"
+[2025-01-17 12:12:32,577] INFO : Layer data successfully transfered! 🐒
+[2025-01-17 12:20:19,466] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:20:19,468] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:20:19,468] INFO : Detected cyclical dependencies.
+[2025-01-17 12:20:19,468] INFO : Elements forming cycles: {'eg1', 'tt2', 'tt1'}
+[2025-01-17 12:20:19,468] INFO : Valid resources acceptable for transfer: {'eg2', 'eg3', 'tt3'}
+[2025-01-17 12:20:19,468] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:20:19,468] INFO : Starting layered transfer
+[2025-01-17 12:20:19,468] INFO : Transferring layer 1 ...
+[2025-01-17 12:20:19,525] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:20:19,526] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg3 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 12:20:19,527] ERROR : Unable to transfer resources in layer: 'Unable to decode response'. Aborting.
+[2025-01-17 12:20:19,527] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tt3 "HTTP/1.1 500 INTERNAL SERVER ERROR"
+[2025-01-17 12:21:00,128] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/EntryGroup "HTTP/1.1 200 OK"
+[2025-01-17 12:21:00,129] INFO : HTTP Request: GET http://127.0.0.1:5000/data_catalog/TagTemplate "HTTP/1.1 200 OK"
+[2025-01-17 12:21:00,129] INFO : Detected cyclical dependencies.
+[2025-01-17 12:21:00,129] INFO : Elements forming cycles: {'eg1', 'tt2', 'tt1'}
+[2025-01-17 12:21:00,129] INFO : Valid resources acceptable for transfer: {'tt3', 'eg2', 'eg3'}
+[2025-01-17 12:21:00,129] WARNING : Validation for some of the resources has failed.
+[2025-01-17 12:21:00,129] INFO : Starting layered transfer
+[2025-01-17 12:21:00,129] INFO : Transferring layer 1 ...
+[2025-01-17 12:21:00,184] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg3 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:21:00,185] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tt3 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:21:00,185] INFO : HTTP Request: POST http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg2 "HTTP/1.1 202 ACCEPTED"
+[2025-01-17 12:21:00,187] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tt3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:00,187] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg2 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:00,188] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:02,198] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tt3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:02,199] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg2 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:02,199] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:06,205] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tt3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:06,206] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg2 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:06,207] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:14,211] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/TagTemplate/tt3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:14,212] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg2 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:14,212] INFO : HTTP Request: GET http://127.0.0.1:5000/dataplex_catalog/EntryGroup/eg3 "HTTP/1.1 200 OK"
+[2025-01-17 12:21:14,213] INFO : Layer data successfully transfered! 🐒

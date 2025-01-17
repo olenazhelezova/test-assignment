@@ -1,0 +1,32 @@
+[
+    {
+        "id": "eg1",
+        "type": "EntryGroup",
+        "dependencies": ["tt1"]
+    },
+    {
+        "id": "eg2",
+        "type": "EntryGroup",
+        "dependencies": []
+    },
+    {
+        "id": "eg3",
+        "type": "EntryGroup",
+        "dependencies": []
+    },
+    {
+        "id": "tt1",
+        "type": "TagTemplate",
+        "dependencies": ["tt2"]
+    },
+    {
+        "id": "tt2",
+        "type": "TagTemplate",
+        "dependencies": ["eg1"]
+    },
+    {
+        "id": "tt3",
+        "type": "TagTemplate",
+        "dependencies": []
+    }
+]

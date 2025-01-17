@@ -1,0 +1,22 @@
+[
+    {
+        "id": "entry_group_1",
+        "type": "EntryGroup",
+        "dependencies": ["tag_template_1"]
+    },
+    {
+        "id": "entry_group_2",
+        "type": "EntryGroup",
+        "dependencies": []
+    },
+    {
+        "id": "tag_template_1",
+        "type": "TagTemplate",
+        "dependencies": []
+    },
+    {
+        "id": "tag_template_2",
+        "type": "TagTemplate",
+        "dependencies": ["entry_group_3"]
+    }
+]
