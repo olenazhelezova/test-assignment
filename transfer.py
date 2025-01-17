@@ -16,6 +16,9 @@ logger = get_logger(args.verbose)
 
 
 def find_duplicates(resources: list[dict]) -> set:
+    """
+    Finds duplicate resource IDs in the given list of resources.
+    """
     collector = set()
     duplicates = set()
     for resource in resources:
@@ -26,6 +29,9 @@ def find_duplicates(resources: list[dict]) -> set:
 
 
 def deduplicate_resources(resources: list[dict], duplicates: set) -> None:
+    """
+    Removes resources with duplicate IDs from the provided list.
+    """
     if len(duplicates) > 0:
         logger.info("Resources before deduplication: ", resources)
         resources[:] = [r for r in resources if r["id"] not in duplicates]
@@ -33,6 +39,10 @@ def deduplicate_resources(resources: list[dict], duplicates: set) -> None:
 
 
 def validate_dependencies(resources: list[dict]):
+    """
+    Validates the dependencies for the provided resources, ensuring that all dependencies exist and
+    are properly referenced.
+    """
     collector, ref_lookup = {}, {}
 
     # Collect all resources into an id-indexed dictionary collector
@@ -114,6 +124,9 @@ def validate_dependencies(resources: list[dict]):
 
 
 async def transfer_resource(resource):
+    """
+    Initiates and monitors the transfer of a single resource.
+    """
     client = DataplexCatalogClient(API_BASE_URL)
     if resource["type"] == "EntryGroup":
         await client.initiate_entrygroup_transfer(resource)
@@ -125,6 +138,9 @@ async def transfer_resource(resource):
 
 
 async def transfer_layered_resources(layers):
+    """
+    Transfers resources in layers, ensuring dependencies are handled first.
+    """
     logger.info("Starting layered transfer")
     try:
         for i in range(len(layers)):
@@ -138,6 +154,9 @@ async def transfer_layered_resources(layers):
 
 
 def main():
+    """
+    Main function to coordinate the data catalog processing and resource transfer.
+    """
     data_catalog_client = DataCatalogClient(API_BASE_URL)
 
     try:

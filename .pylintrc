@@ -1,7 +1,0 @@
-[MASTER]
-max-line-length=120
-
-disable=
-    C0114,C0115,C0116, # missing-module-docstring
-    W0622, # built-in ID 
-    W0719 # too general exception

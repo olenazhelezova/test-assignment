@@ -4,6 +4,9 @@ from argparse import ArgumentParser
 
 
 def parse_cli_args():
+    """
+    Parses command-line arguments for the data transfer CLI.
+    """
     parser = ArgumentParser(description="CLI for Data Transfer")
     parser.add_argument("-d", "--dry-run", action="store_true", help="Perform a dry run of the operation without making any actual changes.")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose output for detailed logging.")
@@ -12,6 +15,9 @@ def parse_cli_args():
 
 
 def get_logger(use_stdout):
+    """
+    Configures and returns a logger with different handlers for output.
+    """
     formatter = logging.Formatter("[%(asctime)s] %(levelname)s : %(message)s")
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
